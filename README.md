@@ -36,3 +36,17 @@ Pelo fato do metodo "Main" não existir o programa não foi executado.<br>
 ## **6°** Crie um programa Java para imprimir duas linhas de texto usando duas linhas de código “System.out”, onde aparecerá o seu nome na primeira linha e na segunda linha aparecerá o time para o qual você torce.
 #
 R: Resposta da questão está no arquivo: _Question6.java_;<br>
+
+## **7°** Experimente escrever todo o programa anterior em maiúsculo, compile eexecute. O que aconteceu?
+#
+R: Desta vez o promgrama não chegou a compilar e aprasentou os seguintes erros:<br>
+>Question6.java:1: error: class, interface, enum, or record expected<br>
+>PUBLIC CLASS QUESTION6{<br>
+>^<br>
+>Question6.java:4: error: class, interface, enum, or record expected<br>
+>                SYSTEM.OUT.PRINTLN("NÃO TORCO PARA NENHUM TIME, POREM MEU COLEGA TORCE PARA O PALMEIRAS");<br>
+>                ^<br>
+>Question6.java:5: error: class, interface, enum, or record expected<br>
+>        }<br>
+>        ^<br>
+>3 errors<br>
