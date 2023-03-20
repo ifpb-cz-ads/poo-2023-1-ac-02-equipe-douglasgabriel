@@ -8,5 +8,19 @@
 
 ## **2°** Qual a diferença entre JRE e JDK?
 #
-R: O ***JRE**, _Java Runtime Environmet_ ou _Ambiente de execução Java_, contém bibiotecas de classe, arquivos de suporte e a _JVM_, ferramentas necessárias para um usuário comum poder executar uma aplicação Java.<br> 
-O ***JDK***, _Java Development Kit_, é um pacote de software onde se pode desenvolver e compilar arquivos Java, é o pacote destinado aos desenvolvedores de aplicações em Java. Esse pacote é composto pelo ***JRE*** e por algumas ferramentas, como o _JavaLang_ e o _JavaTools_.
+R: O ***JRE***, _Java Runtime Environmet_ ou _Ambiente de execução Java_, contém bibiotecas de classe, arquivos de suporte e a _JVM_, ferramentas necessárias para um usuário comum poder executar uma aplicação Java.<br><br> 
+O ***JDK***, _Java Development Kit_, é um pacote de software onde se pode desenvolver e compilar arquivos Java, é o pacote destinado aos desenvolvedores de aplicações em Java. Esse pacote é composto pelo ***JRE*** e por algumas ferramentas, como o _JavaLang_ e o _JavaTools_.<br>
+
+## **3°** Crie um programa Java que imprima o seguinte texto “Terminei a primeira aula com um programa Java!”.
+#
+R: Resposta da questão está no arquivo: _Question3.java_;<br>
+
+## **4°** Compile o programa desenvolvido no exercício anterior. A seguir apague o arquivo .class gerado e tente executar o programa. O que aconteceu?
+#
+R: Como já esperado, o programa não apresentou resposta, resultando em um erro.<br>
+Apresentando como resultado a seguinte mensagem:<br>
+>C:\Users\Silva\Desktop\poo-2023-1-ac-02-equipe-douglasgabriel>java Question3<br>
+Erro: Não foi possível localizar nem carregar a classe principal Question3<br>
+Causada por: java.lang.ClassNotFoundException: Question3<br>
+
+O erro NoClassDefFoundError ocorre quando uma classe existe, mas o ClassLoader do Java não consegue carregá-la ou inicializá-la corretamente.
