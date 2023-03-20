@@ -50,3 +50,10 @@ R: Desta vez o promgrama não chegou a compilar e aprasentou os seguintes erros:
 >        }<br>
 >        ^<br>
 >3 errors<br>
+## **8°** Experimente salvar o arquivo com um nome diferente do nome da classe, compile e execute. O que aconteceu?
+#
+R: Como proposto na questão salvei o arquivo com um nome diferente do nome da classe (original: _Question6.java_ novo: _Question7.java_ ) o programa não foi compliado, consequentemente, não foi executado, e apresemtou o seguinte erro:<br>
+>Question7.java:1: error: class Question6 is public, should be declared in a file named Question6.java<br>
+>public class Question6{<br>
+>       ^<br>
+>1 error<br>
