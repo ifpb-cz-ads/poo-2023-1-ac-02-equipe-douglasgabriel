@@ -24,3 +24,15 @@ Erro: Não foi possível localizar nem carregar a classe principal Question3<br>
 Causada por: java.lang.ClassNotFoundException: Question3<br>
 
 O erro NoClassDefFoundError ocorre quando uma classe existe, mas o ClassLoader do Java não consegue carregá-la ou inicializá-la corretamente.
+
+## **5°** Mude o nome do método “main” para “start”, compile e execute. O que aconteceu?
+#
+R: O programa compilou, porem ele não foi executado e apresentou o seguinte erro:<br>
+>"Error: Main method not found in class Question3, please define the main method as:<br>
+>   public static void main(String[] args)<br>
+>or a JavaFX application class must extend javafx.application.Application"<br>
+Pelo fato do metodo "Main" não existir o programa não foi executado.<br>
+
+## **6°** Crie um programa Java para imprimir duas linhas de texto usando duas linhas de código “System.out”, onde aparecerá o seu nome na primeira linha e na segunda linha aparecerá o time para o qual você torce.
+#
+R: Resposta da questão está no arquivo: _Question6.java_;<br>
